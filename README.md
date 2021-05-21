@@ -16,11 +16,12 @@ Mocking up web apps with <b>Vitespa</b> 🛵 – the slower sibling of Vitesse, 
 
 ## Features
 
-- 🏋️‍♀️ All the great features of [Vitesse](https://github.com/antfu/vitesse#readme)
-
-- ⚡️ 🗂 📦 📑 📲 🎨 😃 🌍 🗒 🔥 🦾 ☁️
+🏋️‍♀️ All the great stuff of [Vitesse](https://github.com/antfu/vitesse#readme)
 
 Vitespa aims for feature parity with Vitesse.
+
+⚡️ 🗂 📦 📑 📲 🎨 😃 🌍 🗒 🔥 🦾 ☁️
+
 
 <br>
 
@@ -80,7 +81,7 @@ To build the App, run
 pnpm build
 ```
 
-to preview the PWA service worker use:
+to preview the PWA service worker use (you can also use `pnpm preview`):
 
 ```bash
 pnpm preview-https
