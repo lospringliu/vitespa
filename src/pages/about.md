@@ -8,14 +8,14 @@ title: About
   <h3>About</h3>
 </div>
 
-[Vitesse](https://github.com/antfu/vitesse) is an opinionated [Vite](https://github.com/vitejs/vite) starter template made by [@antfu](https://github.com/antfu) for mocking apps swiftly. With **file-based routing**, **components auto importing**, **markdown support**, I18n, PWA and uses **WindiCSS** for UI.
+[Vitespa](https://github.com/ctholho/vitespa) is a fork of the opinionated [Vite](https://github.com/vitejs/vite) starter template [Vitesse](https://github.com/antfu/vitesse) by [@antfu](https://github.com/antfu) for mocking apps swiftly. With **file-based routing**, **components auto importing**, **markdown support**, I18n, PWA and uses **WindiCSS** for UI.
 
 ```js
 // syntax highlighting example
-function vitesse() {
+function vitespa() {
   const foo = 'bar'
   console.log(foo)
 }
 ```
 
-Check out the [GitHub repo](https://github.com/antfu/vitesse) for more details.
+Check out the [GitHub repo](https://github.com/ctholho/vitespa) for more details.
