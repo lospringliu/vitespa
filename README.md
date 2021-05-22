@@ -1,5 +1,6 @@
 <p align='center'>
-  <img src='https://user-images.githubusercontent.com/11247099/111864893-a457fd00-899e-11eb-9f05-f4b88987541d.png' alt='Vitespa - the slower sibling of Vitesse, without SSG' width='600'/>
+  <img src='https://user-images.githubusercontent.com/28910105/119210350-fc4cd600-baab-11eb-93b0-ce81184fc556.png' alt='Vitespa - the slower sibling of Vitesse, without SSG' width='600'/>
+
 </p>
 
 <p align='center'>
@@ -18,12 +19,9 @@ Mocking up web apps with <b>Vitespa</b> 🛵 – the slower sibling of Vitesse, 
 
 🏋️‍♀️ All the great stuff of [Vitesse](https://github.com/antfu/vitesse#readme)
 
-Vitespa aims for feature parity with Vitesse.
-
 ⚡️ 🗂 📦 📑 📲 🎨 😃 🌍 🗒 🔥 🦾 ☁️
 
-
-<br>
+Vitespa aims for feature parity with Vitesse.
 
 ## Variations
 
