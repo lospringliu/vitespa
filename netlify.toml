@@ -6,6 +6,9 @@
   publish = "dist"
   command = "npx pnpm i --store=node_modules/.pnpm-store && npx pnpm run build"
 
+[dev]
+  targetPort = 3333
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
