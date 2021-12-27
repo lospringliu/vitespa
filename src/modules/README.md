@@ -5,7 +5,7 @@ A custom user module system. Place a `.ts` file with the following template, it 
 ```ts
 import { UserModule } from '~/types'
 
-export const install: UserModule = ({ app, router }) => {
+export const install: UserModule = ({ app, router, isClient }) => {
   // do something
 }
 ```
