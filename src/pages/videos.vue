@@ -27,11 +27,8 @@ onMounted(() => {
 
 <template>
   <div class="flex items-center justify-center">
-    <YoutubeVue3
-      :videoid="videoid"
-      :loop="loop"
-      :width="width"
-      :autoplay="autoplay"
+    <Youtube
+      :src="videoid"
     />
   </div>
   <div class="flex items-center justify-center">
