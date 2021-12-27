@@ -3,9 +3,6 @@ import { ref, onMounted } from 'vue'
 
 const video = ref(null)
 const videoid = ref('3P1CnWI62Ik')
-const loop = ref(1)
-const width = ref(320)
-const autoplay = ref(0)
 onMounted(() => {
   // window.console.log(video.value)
   // const testHash = 'mbGtJg23skhvFmu9mJiePVByhfzu5rwo74MEkVDYAmF5T'
@@ -32,23 +29,21 @@ onMounted(() => {
     />
   </div>
   <div class="flex items-center justify-center">
-    <vue-plyr>
-      <div data-plyr-provider="youtube" data-plyr-embed-id="bTqVqk7FSmY"></div>
+    <vue-plyr class="w-full aspect-video">
+      <div class="aspect-video" data-plyr-provider="youtube" data-plyr-embed-id="bTqVqk7FSmY"></div>
     </vue-plyr>
   </div>
   <div class="flex items-center justify-center">
-    <video ref="video" controls></video>
+    <video ref="video" class="w-full aspect-video" controls></video>
   </div>
   <div class="flex items-center justify-center">
-    <vue-plyr class="w-[640px]">
-			<div class="plyr__video-embed">
+    <vue-plyr class="w-full aspect-video">
 				<iframe
 					src="https://www.youtube.com/embed/bTqVqk7FSmY?amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1"
 					allowfullscreen
 					allowtransparency
 					allow="autoplay"
 				></iframe>
-			</div>
 		</vue-plyr>
   </div>
 </template>
