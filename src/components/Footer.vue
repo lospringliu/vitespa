@@ -26,8 +26,19 @@ const toggleLocales = () => {
       <carbon-language />
     </a>
 
+    <router-link class="icon-btn mx-2" to="/videos" title="videos">
+      <mdi-video />
+    </router-link>
     <router-link class="icon-btn mx-2" to="/about" :title="t('button.about')">
       <carbon-dicom-overlay />
+    </router-link>
+
+    <router-link class="icon-btn mx-2" to="/phone" title="phone">
+      <carbon-mobile />
+    </router-link>
+
+    <router-link class="icon-btn mx-2" to="/ipfs" title="ipfs">
+      <carbon-blockchain />
     </router-link>
 
     <a class="icon-btn mx-2" rel="noreferrer" href="https://github.com/ctholho/vitespa" target="_blank" title="GitHub">

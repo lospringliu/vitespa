@@ -3,16 +3,22 @@
 
 declare module 'vue' {
   export interface GlobalComponents {
-    Footer: typeof import('./src/components/Footer.vue')['default']
-    README: typeof import('./src/components/README.md')['default']
-    CarbonScooter: typeof import('virtual:vite-icons/carbon/scooter')['default']
-    CarbonMoon: typeof import('virtual:vite-icons/carbon/moon')['default']
-    CarbonSun: typeof import('virtual:vite-icons/carbon/sun')['default']
-    CarbonLanguage: typeof import('virtual:vite-icons/carbon/language')['default']
+    CarbonBlockchain: typeof import('virtual:vite-icons/carbon/blockchain')['default']
     CarbonDicomOverlay: typeof import('virtual:vite-icons/carbon/dicom-overlay')['default']
+    CarbonLanguage: typeof import('virtual:vite-icons/carbon/language')['default']
     CarbonLogoGithub: typeof import('virtual:vite-icons/carbon/logo-github')['default']
-    CarbonWarning: typeof import('virtual:vite-icons/carbon/warning')['default']
-    CarbonPedestrian: typeof import('virtual:vite-icons/carbon/pedestrian')['default']
+    CarbonMobile: typeof import('virtual:vite-icons/carbon/mobile')['default']
+    CarbonMoon: typeof import('virtual:vite-icons/carbon/moon')['default']
+    CarbonScooter: typeof import('virtual:vite-icons/carbon/scooter')['default']
+    CarbonSun: typeof import('virtual:vite-icons/carbon/sun')['default']
+    Footer: typeof import('./src/components/Footer.vue')['default']
+    MdiCamera: typeof import('virtual:vite-icons/mdi/camera')['default']
+    MdiFlashlight: typeof import('virtual:vite-icons/mdi/flashlight')['default']
+    MdiLock: typeof import('virtual:vite-icons/mdi/lock')['default']
+    MdiVideo: typeof import('virtual:vite-icons/mdi/video')['default']
+    README: typeof import('./src/components/README.md')['default']
+    VuePlyr: typeof import('./src/components/VuePlyr.vue')['default']
+    YoutubeVue3: typeof import('./src/components/YoutubeVue3.vue')['default']
   }
 }
 

@@ -79,7 +79,7 @@ export default defineConfig({
     // https://github.com/antfu/vite-plugin-pwa
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.svg', 'robots.txt', 'safari-pinned-tab.svg'],
+      includeAssets: ['favicon.svg', 'robots.txt', 'safari-pinned-tab.svg', 'cova.png', 'pic.jpg', 't.png', 'u.png', 'v.png'],
       manifest: {
         name: 'Vitespa',
         short_name: 'Vitespa',

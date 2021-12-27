@@ -4,13 +4,11 @@ import { useRouter } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 
 const name = ref('')
-
 const router = useRouter()
 const go = () => {
   if (name.value)
     router.push(`/hi/${encodeURIComponent(name.value)}`)
 }
-
 const { t } = useI18n()
 </script>
 
@@ -37,13 +35,13 @@ const { t } = useI18n()
       :aria-label="t('intro.whats-your-name')"
       type="text"
       autocomplete="false"
-      @keydown.enter="go"
       p="x-4 y-2"
       w="250px"
       text="center"
       bg="transparent"
       border="~ rounded gray-200 dark:gray-700"
       outline="none active:none"
+      @keydown.enter="go"
     >
     <label class="hidden" for="input">{{ t('intro.whats-your-name') }}</label>
 
